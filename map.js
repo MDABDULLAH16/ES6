@@ -18,3 +18,7 @@ console.log({ filtered });
 // return the first Element after match the condition
 const find = numbers.find((num) => num % 2);
 console.log({ find });
+
+// nothing return only testing purpose;
+const forEach = numbers.forEach((num) => num * 2);
+console.log({ forEach });
